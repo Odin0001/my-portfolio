@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import night from "../../public/night-bg.jpg";
-import morning from "../../public/morning-bg.jpg";
-import noon from "../../public/noon-bg.jpg";
-import sunset from "../../public/sunset-bg.jpg";
+import night from "/night-bg.jpg";
+import morning from "/morning-bg.jpg";
+import noon from "/noon-bg.jpg";
+import sunset from "/sunset-bg.jpg";
 import MainSocials from "./MainSocials";
-import cv from "../../public/philip jobran cv.pdf";
+import cv from "/philip jobran cv.pdf";
 import { BsGithub, BsLinkedin, BsFacebook, BsInstagram, BsWhatsapp, BsTelegram } from "react-icons/bs";
 
 const Header = () => {

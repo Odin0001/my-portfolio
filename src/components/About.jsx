@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MainPic from "../../public/main-pic1.png";
+import MainPic from "/main-pic1.png";
 import { GiLaurelsTrophy, GiProcessor } from "react-icons/gi";
 import { RiUserStarFill } from "react-icons/ri";
 import { SiOpslevel } from "react-icons/si";

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import project1 from "../../public/lha-nutritionists.jpg";
-import project2 from "../../public/lha-kitchen.jpg";
-import project3 from "../../public/imdb.jpg";
+import project1 from "/lha-kitchen.jpg";
+import project2 from "/lha-nutritionists.jpg";
+import project3 from "/imdb.jpg";
 
 const portData = [
   {
