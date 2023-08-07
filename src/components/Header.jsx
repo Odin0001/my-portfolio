@@ -5,7 +5,7 @@ import morning from "../../public/morning-bg.jpg";
 import noon from "../../public/noon-bg.jpg";
 import sunset from "../../public/sunset-bg.jpg";
 import MainSocials from "./MainSocials";
-import cv from "../assets/philip jobran cv.pdf";
+import cv from "../../public/philip jobran cv.pdf";
 import { BsGithub, BsLinkedin, BsFacebook, BsInstagram, BsWhatsapp, BsTelegram } from "react-icons/bs";
 
 const Header = () => {

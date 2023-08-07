@@ -1,6 +1,6 @@
 @font-face {
   font-family: exo;
-  src: url(./assets/Exo-Expanded/Exo2-LightExpanded.otf);
+  src: url(../public/Exo-Expanded/Exo2-LightExpanded.otf);
 }
 
 body {
