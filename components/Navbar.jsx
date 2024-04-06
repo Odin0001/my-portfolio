@@ -6,7 +6,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
-import useThemeSwitcher from "./hooks/UseThemeSwitcher";
+import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import { CiMenuFries } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
