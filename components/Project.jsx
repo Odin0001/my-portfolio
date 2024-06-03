@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import nutritionists from "../public/lha-nutritionists.png";
 import kitchen from "../public/lha-kitchen.png";
 import imdb from "../public/imdb.png";
-import gigachat from '../public/gigachat.JPG'
+import gigachat from '../public/gigachat.jpg'
 
 const projectData = [
   {
