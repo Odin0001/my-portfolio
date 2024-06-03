@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import nutritionists from "../public/lha-nutritionists.png";
 import kitchen from "../public/lha-kitchen.png";
 import imdb from "../public/imdb.png";
+import gigachat from '../public/gigachat.jpeg'
 
 const projectData = [
   {
@@ -30,6 +31,13 @@ const projectData = [
     desc: "IMDB API with Next JS",
     link: "https://imdb-philipjobran009-gmailcom.vercel.app",
     github: "https://github.com/Odin0001/IMDB",
+  },
+  {
+    title: 'GigaChat',
+    img: gigachat,
+    desc: 'Websockets With Express Server',
+    link: 'https://gigachat-5ug4.onrender.com',
+    github: 'https://github.com/Odin0001/Gigachat'
   },
 ];
 
