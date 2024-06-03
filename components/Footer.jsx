@@ -32,7 +32,7 @@ const Footer = () => {
         className="absolute top-0 left-0 -z-10 brightness-50"
         alt="Footer Background"
       />
-      <h1 className="text-6xl text-center py-12 underline underline-offset-[12px] decoration-1">
+      <h1 className="text-6xl text-center text-white py-12 underline underline-offset-[12px] decoration-1">
         Get in Touch
       </h1>
       <div className="flex w-full justify-between item-start gap-20 md:flex-col px-24 md:px-12">
@@ -46,14 +46,14 @@ const Footer = () => {
             placeholder="Enter your Email"
             name="email"
             required
-            className="bg-transparent placeholder:text-xl w-full h-10 pl-2 border border-white rounded-md"
+            className="bg-transparent placeholder:text-xl placeholder:text-white placeholder:font-medium w-full h-10 pl-2 border border-white rounded-md"
           />
           <input
             type="text"
             placeholder="Enter your Name"
             name="name"
             required
-            className="bg-transparent placeholder:text-xl w-full h-10 pl-2 border border-white rounded-md"
+            className="bg-transparent placeholder:text-xl placeholder:text-white placeholder:font-medium w-full h-10 pl-2 border border-white rounded-md"
           />
           <textarea
             placeholder="Your Message"
@@ -61,45 +61,46 @@ const Footer = () => {
             rows="14"
             name="message"
             required
-            className="w-full bg-transparent resize-none pl-2 border border-white rounded-md placeholder:text-xl"
+            className="w-full bg-transparent resize-none pl-2 border border-white rounded-md placeholder:text-xl placeholder:text-white placeholder:font-medium"
           ></textarea>
-          <button className="border border-white px-4 py-2 rounded-md bg-transparent hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
+          <button className="border border-white px-4 py-2 rounded-md bg-transparent text-white hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
             Submit
           </button>
         </form>
+
         <div className="flex flex-1 flex-col justify-center items-center gap-4">
           <div className="w-full flex flex-col justify-center items-center gap-2 border border-white rounded-md py-4">
-            <CiMail size={30} />
-            <span>Email</span>
+            <CiMail size={30} className="text-white" />
+            <span className="text-white">Email</span>
             <p>philipjobran009@gmail.com</p>
             <a href="mailto:philipjobran009@gmail.com" target={"_blank"}>
-              <button className="border border-white py-2 px-4 bg-transparent rounded-md hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
+              <button className="border border-white py-2 px-4 bg-transparent rounded-md text-white hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
                 Send a Message
               </button>
             </a>
           </div>
           <div className="w-full flex flex-col justify-center items-center gap-2 border border-white rounded-md py-4">
-            <BsDiscord size={30} />
-            <span>Discord</span>
+            <BsDiscord size={30} className="text-white" />
+            <span className="text-white">Discord</span>
             <p>P.Jobran#5482</p>
             <a
               href="https://discordapp.com/users/[892862766354935828]"
               target={"_blank"}
             >
-              <button className="border border-white py-2 px-4 bg-transparent rounded-md hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
+              <button className="border border-white py-2 px-4 bg-transparent rounded-md text-white hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
                 Send a Message
               </button>
             </a>
           </div>
           <div className="w-full flex flex-col justify-center items-center gap-2 border border-white rounded-md py-4">
-            <IoLogoWhatsapp size={30} />
-            <span>WhatsApp</span>
+            <IoLogoWhatsapp size={30} className="text-white" />
+            <span className="text-white">WhatsApp</span>
             <p>+963964596819</p>
             <a
               href="https://api.whatsapp.com/send?phone+963964596819"
               target={"_blank"}
             >
-              <button className="border border-white py-2 px-4 bg-transparent rounded-md hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
+              <button className="border border-white py-2 px-4 bg-transparent rounded-md text-white hover:text-black hover:bg-white hover:font-bold transition duration-300 ease">
                 Send a Message
               </button>
             </a>

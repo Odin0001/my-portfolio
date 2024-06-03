@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import nutritionists from "../public/lha-nutritionists.png";
 import kitchen from "../public/lha-kitchen.png";
 import imdb from "../public/imdb.png";
-import gigachat from '../public/gigachat.jpeg'
+import gigachat from '../public/gigachat.jpg'
 
 const projectData = [
   {
@@ -33,11 +33,11 @@ const projectData = [
     github: "https://github.com/Odin0001/IMDB",
   },
   {
-    title: 'GigaChat',
+    title: "Gigachat",
     img: gigachat,
-    desc: 'Websockets With Express Server',
-    link: 'https://gigachat-5ug4.onrender.com',
-    github: 'https://github.com/Odin0001/Gigachat'
+    desc: "Websockets With Express Server",
+    link: "https://gigachat-5ug4.onrender.com",
+    github: "https://github.com/Odin0001/Gigachat",
   },
 ];
 
@@ -45,7 +45,7 @@ const Project = () => {
   return (    
     <Swiper
       spacebetween={10}
-      freemode={true}
+      freemode='true'
       pagination={{
         clickable: true,
       }}
@@ -55,15 +55,13 @@ const Project = () => {
         "--swiper-pagination-color": "#075985",
         "--swiper-pagination-bullet-inactive-color": "#fff",
         "--swiper-pagination-bullet-inactive-opacity": "1",
-        "--swiper-pagination-bullet-size": "10px",
+        "--swiper-pagination-bullet-size": "15px",
         "--swiper-pagination-bullet-horizontal-gap": "6px",
       }}
     >
       {projectData.map((item, index) => (
         <SwiperSlide key={index}>
-          <a
-            href={item.link}
-            target="_blank"
+          <div
             className="w-full h-[50vh] sm:h-[20vh] sm:mt-28 rounded-md flex justify-center items-center overflow-hidden sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer relative"
           >
             <div className="flex items-center justify-center relative overflow-hidden w-full h-full group">
@@ -101,7 +99,7 @@ const Project = () => {
                 </h3>
               </div>
             </div>
-          </a>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
